@@ -1,7 +1,7 @@
 {
-  "name": "@dashevo/dashcore-lib",
+  "name": "@sagacrypto/bitcore-lib-saga",
   "version": "0.15.5",
-  "description": "A pure and powerful JavaScript Dash library.",
+  "description": "A pure and powerful JavaScript SagaCoin library.",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -71,7 +71,7 @@
     }
   ],
   "keywords": [
-    "dash",
+    "saga",
     "transaction",
     "address",
     "p2p",
@@ -89,12 +89,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashevo/dashcore-lib.git"
+    "url": "https://github.com/sagacrypto/bitcore-lib-saga.git"
   },
   "bugs": {
-    "url": "https://github.com/dashevo/dashcore-lib/issues"
+    "url": "https://github.com/sagacrypto/bitcore-lib-saga/issues"
   },
-  "homepage": "https://github.com/dashevo/dashcore-lib",
+  "homepage": "https://github.com/sagacrypto/bitcore-lib-saga",
   "browser": {
     "request": "browser-request"
   },

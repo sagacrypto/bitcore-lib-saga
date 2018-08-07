@@ -18,8 +18,8 @@ var invalidbase58 = require('./data/bitcoind/base58_keys_invalid.json');
 describe('Address', function() {
 
   var pubkeyhash = new Buffer('3c3fa3d4adcaf8f52d5b1843975e122548269937', 'hex');
-  var buf = Buffer.concat([new Buffer([0x4c]), pubkeyhash]);
-  var str = 'XgBQcYbKff4q7cEs7AaxoPN2CAiBbFc2JT';
+  var buf = Buffer.concat([new Buffer([0x7d]), pubkeyhash]);
+  var str = 'saphctTjdowVBHpTRkrXrXzrrawy38PmS6';
 
   it('can\'t build without data', function() {
     (function() {
@@ -68,11 +68,11 @@ describe('Address', function() {
 
   // livenet valid
   var PKHLivenet = [
-    'XfcbSaK1dtEe6GmNRE5pMS3WYpoJ2D1BDm',
-    'XjnkiGYQkC3bbAzvDjP7jkNouHCHNRr3ug',
-    'XmWSeuzXVq1mb6GtyTXkYT3UgLo5uVR7XG',
-    'XtfsoT5X39fbxyH4h8VJoQ8CVyLjojjUST',
-    '    XtfsoT5X39fbxyH4h8VJoQ8CVyLjojjUST   \t\n'
+    'sXK43yqC1uEzLuWBWqHT5sxsp42X1h1c1v',
+    'sYFhtnug5UuMCGMbxhZAAQX3cu4CexB8ZB',
+    'sSQPP9zZ3VvjQ8Fx8yUvJRemDi14XrCNiU',
+    'sZz9fzauEiiYL7MUV9P62PZGMXk3XxB2kY',
+    '    sPYDAgLxCR4DpHAc1PP5gAZSrULPxgH6EP   \t\n'
   ];
 
   // livenet p2sh
